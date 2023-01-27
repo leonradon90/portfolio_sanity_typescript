@@ -17,7 +17,7 @@ export default function LandingPage({ posts }: Props) {
         <div>
           {posts.map(post => (
 
-            <div>
+            <div key={post._id}>
               <div>
 
                 <PortableText
